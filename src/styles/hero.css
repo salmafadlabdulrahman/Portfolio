@@ -83,7 +83,6 @@
 
   .hero-body {
     padding-top: 0;
-    padding-top: 1em;
   }
 
   .hero-body h2 {
@@ -92,6 +91,7 @@
 
   .hero-body p {
     font-size: 1.5em;
+    
   }
 }
 
@@ -104,21 +104,32 @@
   }
 
   .hero-body {
-    /*padding-top: 1.5em;*/
     padding-top: 0;
     align-self: center;
   }
 
   .hero-body h2 {
-    font-size: 3.5em;
+    font-size: 3.2em;
   }
 
   .hero-body p {
-    font-size: 1.7em;
+    font-size: 1.3em;
     width: 80%;
+    line-height: 1.8;
   }
 
   .hero-body p span {
     font-size: 1.4em;
   }
+}
+
+
+@media (min-width: 1500px) {
+    .hero-body h2 {
+        font-size: 3.5em;
+      }
+    
+      .hero-body p {
+        font-size: 1.7em;
+      }
 }
