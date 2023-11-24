@@ -13,8 +13,12 @@
   --rose-quartz: #aaa1c8;
 }
 
-.hero-wrapper {
+/*.hero-wrapper {
   padding: 2em;
+}*/
+
+.hero-body {
+    padding: 2em;
 }
 
 .hero-wrapper p {
@@ -68,11 +72,10 @@
 }
 
 .code-snippet-wrapper {
-    margin-top: 4em;
+    margin-top: 3em;
     /*width: 500px;
     margin: 0 auto;*/
-    border: 1px solid blue;
-    width: 100%;
+    
 }
 
 .hero-wrapper img {
