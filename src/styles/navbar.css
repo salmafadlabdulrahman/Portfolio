@@ -1,0 +1,22 @@
+.navbar-wrapper {
+    padding: 1em;
+}
+
+nav, ul {
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+.logo, li {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul {
+    list-style: none;
+    gap: 1em;
+}
