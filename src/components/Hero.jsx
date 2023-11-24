@@ -1,7 +1,6 @@
 import "../styles/hero.css";
-import codeSnippet from "../assets/17008411212358274.png";
-//carbon (5).png
-//carbon__5_-removebg-preview.png
+import codeSnippet from "../assets/home/Intro-snippet.png";
+
 function Hero() {
   return (
     <div className="hero">

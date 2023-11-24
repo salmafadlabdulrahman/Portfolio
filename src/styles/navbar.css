@@ -1,32 +1,34 @@
 .navbar-wrapper {
-    padding: 2em 1.5em;
+  padding: 2em 1.5em;
 }
 
-nav, ul {
-    display: flex;
+nav,
+ul {
+  display: flex;
 }
 
 nav {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
-.logo, li {
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+.logo,
+li {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .logo {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 ul {
-    list-style: none;
-    gap: 1.5em;
+  list-style: none;
+  gap: 1.5em;
 }
 
 @media (min-width: 500px) {
-    .navbar-wrapper {
-        padding: 2.5em 4em;
-    }
+  .navbar-wrapper {
+    padding: 2.5em 4em;
+  }
 }
