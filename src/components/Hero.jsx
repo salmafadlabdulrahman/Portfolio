@@ -20,8 +20,7 @@ function Hero() {
             </div>
 
             <div className="code-section">
-              <img src={codeSnippet} alt="" />
-              {/*<div className="code-body">
+              <div className="code-body">
                 class Introduction &#123;
                 <br />
                 &nbsp;&nbsp;&nbsp;&nbsp;constructor() &#123;
@@ -41,7 +40,7 @@ function Hero() {
                 &nbsp;&nbsp;&nbsp;&nbsp;&#125;
                 <br />
                 &#125;
-              </div>*/}
+              </div>
             </div>
           </div>
         </div>
