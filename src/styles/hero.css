@@ -104,7 +104,9 @@
   }
 
   .hero-body {
-    padding-top: 1.5em;
+    /*padding-top: 1.5em;*/
+    padding-top: 0;
+    align-self: center;
   }
 
   .hero-body h2 {
@@ -114,5 +116,9 @@
   .hero-body p {
     font-size: 1.7em;
     width: 80%;
+  }
+
+  .hero-body p span {
+    font-size: 1.4em;
   }
 }
