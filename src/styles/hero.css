@@ -20,9 +20,13 @@
   --cadet-gray: #88a0a8;
 }
 
+.hero-container,
+.code-snippet-wrapper {
+  background-repeat: no-repeat;
+}
+
 .hero-container {
   background-image: url(/src/assets/blobs/purple-blob.png);
-  background-repeat: no-repeat;
 }
 
 .hero-body {
@@ -44,8 +48,7 @@
 
 .code-snippet-wrapper {
   background-image: url(../assets/blobs/blue-dark-blob.png);
-  background-repeat: no-repeat;
-  padding-bottom: 4em;
+  padding-bottom: 5em;
 }
 
 .hero-wrapper img {
@@ -85,7 +88,6 @@
 
   .hero-body h2 {
     font-size: 3.2em;
-    
   }
 
   .hero-body p {
@@ -99,6 +101,10 @@
     background-image: url(/src/assets/blobs/glacious-blob.svg);
     background-repeat: no-repeat;
     background-position: bottom;
+  }
+
+  .hero-body {
+    padding-top: 1.5em;
   }
 
   .hero-body h2 {
