@@ -6,9 +6,6 @@
   --Eerie-black: #1a1d1a;
   --cloumbia-blue: #cad8de;
   --light-gray: #e4e3e5;
-  --green: #33c948;
-  --yellow: #fdbc3d;
-  --red: #f96256;
   --off-white: #f7f7f7;
   --oxford-blue: #0e1c36;
   --space-cadet: #171738;
@@ -91,7 +88,6 @@
 
   .hero-body p {
     font-size: 1.5em;
-    
   }
 }
 
@@ -123,13 +119,12 @@
   }
 }
 
-
 @media (min-width: 1500px) {
-    .hero-body h2 {
-        font-size: 3.5em;
-      }
-    
-      .hero-body p {
-        font-size: 1.7em;
-      }
+  .hero-body h2 {
+    font-size: 3.5em;
+  }
+
+  .hero-body p {
+    font-size: 1.7em;
+  }
 }

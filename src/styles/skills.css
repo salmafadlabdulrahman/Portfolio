@@ -1,0 +1,78 @@
+:root {
+  --ghost-white: #f4f4f9;
+  --glacious-blue: #7681b3;
+  --glacious: #647aa3;
+  --black: #050401;
+  --Eerie-black: #1a1d1a;
+  --cloumbia-blue: #cad8de;
+  --light-gray: #e4e3e5;
+  --off-white: #f7f7f7;
+  --oxford-blue: #0e1c36;
+  --space-cadet: #171738;
+  --rose-quartz: #aaa1c8;
+  --Thistle: #d5c6e0;
+  --mountbatten-pink: #967aa1;
+  --ultra-violet: #4b4e6d;
+  --powder-blue: #94b0da;
+  --cadet-gray: #88a0a8;
+}
+
+.skills-container {
+  padding: 2em;
+  /*background-image: url(/src/assets/blobs/purple-blob.png);
+  background-repeat: no-repeat;*/
+}
+
+/*.skills-wrapper {
+  border-top: 3px solid var(--mountbatten-pink);
+}*/
+
+.tech-skills {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  /*background-color: var(--glacious-blue);*/
+  background-color: var(--mountbatten-pink);
+  border-radius: 15px;
+  padding: 1.5em;
+  /*box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
+  /*box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);*/
+  /*box-shadow: 2px 2px 0 #fff;*/
+  box-shadow: 3px 2px 0px #000;
+}
+
+.skills-header {
+  background-color: var(--Eerie-black);
+  color: var(--ghost-white);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: 70px;
+}
+
+.skill-container {
+    padding-left: 1em;
+    
+    position: relative;
+    bottom: 40px;
+}
+
+.tech-skills li {
+  /*color: var(--Eerie-black);*/
+  font-size: 1.2em;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 1em;
+  /*text-shadow: 2px 1px 0 #fff;*/
+  /*color: var(--ghost-white);
+  background-color: var(--Eerie-black);*/
+  /*color: var(--ghost-white);
+  padding: 1em;*/
+}
