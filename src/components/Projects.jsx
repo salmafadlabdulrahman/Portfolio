@@ -1,7 +1,11 @@
 import "../styles/projects.css";
-import archStudioPic from "../assets/projectsImages/archStudio-pic.png";
-import taskManagementApp from "../assets/projectsImages/taskManagement.jpg"
-import audiophilePic from "../assets/projectsImages/Audiophile-Pic.webp"
+/*import archStudioPic from "../assets/projectsImages/audioStudioPic.webp";
+import taskManagementApp from "../assets/projectsImages/taskManagement.jpg";
+import audiophilePic from "../assets/projectsImages/Audiophile-Pic.webp";*/
+
+import firstPic from "../assets/projectsImages/steve-johnson-bCME-_JwOHM-unsplash.jpg"
+
+//audiophilePic
 //Audiophile-Pic.webp
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -21,13 +25,13 @@ function Projects() {
     <div className="projects">
       <div className="projects-wrapper">
         <h2>Projects</h2>
-        <p>
+        <p className="description">
           Take a look at some of the projects <br />
           that i&apos;ve done
         </p>
         <div className="projects-container">
           <div className="project-container">
-            <img src={archStudioPic} />
+            <img src={firstPic} />
             <div className="project-info">
               <h4 className="project-category">Business/Company Website</h4>
               <h3 className="project-title">Arch Studio Website</h3>
@@ -63,7 +67,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="project-container">
+          {/*<div className="project-container">
             <img src={taskManagementApp} />
             <div className="project-info">
               <h4 className="project-category">Utilities</h4>
@@ -98,9 +102,9 @@ function Projects() {
                 </a>
               </div>
             </div>
-          </div>
+  </div>*/}
 
-          <div className="project-container">
+          {/*<div className="project-container">
             <img src={audiophilePic} />
             <div className="project-info">
               <h4 className="project-category">E-Commerce Website</h4>
@@ -135,7 +139,8 @@ function Projects() {
                 </a>
               </div>
             </div>
-          </div>
+          </div>*/}
+
         </div>
       </div>
     </div>
