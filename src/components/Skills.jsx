@@ -4,6 +4,11 @@ import { faHtml5, faCss3Alt, faSquareJs, faReact } from '@fortawesome/free-brand
 import { faObjectGroup } from '@fortawesome/free-solid-svg-icons';
 
 function Skills() {
+  const style = {
+    fontSize: "2.5em",
+
+  }
+
   return (
     <div className="skills">
       <div className="skills-container">
@@ -12,11 +17,11 @@ function Skills() {
             Techs <span>&</span> Skills
           </h1>
           <ul className="tech-skills">
-            <li>HTML <FontAwesomeIcon icon={faHtml5} style={{ fontSize: "2.5em" }}/></li>
-            <li>CSS <FontAwesomeIcon icon={faCss3Alt} style={{ fontSize: "2.5em" }}/></li>
-            <li>JavaScript <FontAwesomeIcon icon={faSquareJs} style={{ fontSize: "2.5em" }}/></li>
-            <li>REACT <FontAwesomeIcon icon={faReact} style={{ fontSize: "2.5em" }}/></li>
-            <li>Responsive Design <FontAwesomeIcon icon={faObjectGroup} style={{ fontSize: "2.5em" }} /></li>
+            <li>HTML <FontAwesomeIcon icon={faHtml5} style={style}/></li>
+            <li>CSS <FontAwesomeIcon icon={faCss3Alt} style={style}/></li>
+            <li>JavaScript <FontAwesomeIcon icon={faSquareJs} style={style}/></li>
+            <li>REACT <FontAwesomeIcon icon={faReact} style={style}/></li>
+            <li>Responsive Design <FontAwesomeIcon icon={faObjectGroup} style={style} /></li>
           </ul>
         </div>
       </div>
