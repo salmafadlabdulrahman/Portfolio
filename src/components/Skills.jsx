@@ -1,17 +1,22 @@
 import "../styles/skills.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHtml5, faCss3Alt, faSquareJs, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faObjectGroup } from '@fortawesome/free-solid-svg-icons';
 
 function Skills() {
   return (
     <div className="skills">
       <div className="skills-container">
         <div className="skills-wrapper">
-          <h1>Techs <span>&</span> Skills</h1>
-          <ul className="techs">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>REACT</li>
-            <li>Responsive Design</li>
+          <h1>
+            Techs <span>&</span> Skills
+          </h1>
+          <ul className="tech-skills">
+            <li>HTML <FontAwesomeIcon icon={faHtml5} style={{ fontSize: "2.5em" }}/></li>
+            <li>CSS <FontAwesomeIcon icon={faCss3Alt} style={{ fontSize: "2.5em" }}/></li>
+            <li>JavaScript <FontAwesomeIcon icon={faSquareJs} style={{ fontSize: "2.5em" }}/></li>
+            <li>REACT <FontAwesomeIcon icon={faReact} style={{ fontSize: "2.5em" }}/></li>
+            <li>Responsive Design <FontAwesomeIcon icon={faObjectGroup} style={{ fontSize: "2.5em" }} /></li>
           </ul>
         </div>
       </div>
@@ -20,19 +25,3 @@ function Skills() {
 }
 
 export default Skills;
-
-/*<span>C</span>
-            <span>o</span>
-            <span>d</span>
-            <span>e</span> */
-
-/*<ul className="tech-skills">
-            <h2 className="skills-header">Skills</h2>
-            <div className="skill-container">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Responsive Design</li>
-            </div>
-          </ul> */
