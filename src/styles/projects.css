@@ -1,0 +1,80 @@
+:root {
+  --ghost-white: #f4f4f9;
+  --glacious-blue: #7681b3;
+  --glacious: #647aa3;
+  --black: #050401;
+  --Eerie-black: #1a1d1a;
+  --cloumbia-blue: #cad8de;
+  --light-gray: #e4e3e5;
+  --off-white: #f7f7f7;
+  --oxford-blue: #0e1c36;
+  --space-cadet: #171738;
+  --rose-quartz: #aaa1c8;
+  --Thistle: #d5c6e0;
+  --mountbatten-pink: #967aa1;
+  --ultra-violet: #4b4e6d;
+  --powder-blue: #94b0da;
+  --cadet-gray: #88a0a8;
+}
+
+.projects {
+  margin-top: 7em;
+}
+
+.projects-wrapper {
+  padding: 2em;
+}
+
+.projects-wrapper h2 {
+  border-top: 5px solid var(--rose-quartz);
+  width: 150px;
+  padding-top: 0.5em;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.projects-wrapper p {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+.project-container {
+  margin-top: 2em;
+}
+
+.project-container img {
+  width: 100%;
+}
+
+.project-info {
+  padding: 0.5em;
+}
+
+.project-category {
+  font-size: 1.1em;
+  margin-top: 1em;
+  font-weight: 400;
+  color: #798086;
+}
+
+.project-title {
+    font-weight: 800;
+}
+
+.links {
+    margin-top: 1em;
+}
+
+.links a{
+    display: block;
+    font-weight: 700;
+    padding-right: 1em;
+    width: 200px;
+    margin-bottom: 1em;
+}
+
+.right-icon {
+    padding-left: .5em;
+}
