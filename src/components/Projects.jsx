@@ -25,6 +25,7 @@ function Projects() {
 
   return (
     <div className="projects">
+      <span className="projects-line"></span>
       <div className="projects-wrapper">
         <h2>Projects</h2>
         <p className="description">
@@ -32,12 +33,12 @@ function Projects() {
           that i&apos;ve done
         </p>
         <div className="projects-container">
-          <div className="project-container" style={{alignSelf: "flex-start"}}>
-            <div className="project-img-container">
+          <div className="project-container" >
+            <div className="project-img-container" style={{order: "1"}}>
               <img src={ecommerceWebsite} />
             </div>
 
-            <div className="project-info">
+            <div className="project-info" style={{order: "2"}}>
               <h4 className="project-category">E-Commerce Website</h4>
               <h3 className="project-title">Audiophile E-Commerce Website</h3>
               <p className="techs-used">
@@ -72,12 +73,12 @@ function Projects() {
             </div>
           </div>
 
-          <div className="project-container" style={{alignSelf: "flex-end"}}>
-            <div className="project-img-container">
+          <div className="project-container" >
+            <div className="project-img-container" style={{order: "2"}}>
               <img src={taskManagementApp} />
             </div>
 
-            <div className="project-info">
+            <div className="project-info" style={{order: "1"}}>
               <h4 className="project-category">Utilities</h4>
               <h3 className="project-title">Task Management App</h3>
               <p className="techs-used">
@@ -112,7 +113,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="project-container" style={{alignSelf: "flex-start"}}>
+          <div className="project-container" >
             <div className="project-img-container">
               <img src={archStudioPic} />
             </div>
@@ -163,3 +164,6 @@ export default Projects;
                 Built with: <span>HTML</span> <span>CSS</span> <span>JS</span>{" "}
                 <span>React</span>
               </p> */
+
+
+              /*style={{alignSelf: "flex-end"}} */
