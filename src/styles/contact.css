@@ -1,0 +1,57 @@
+:root {
+  --ghost-white: #f4f4f9;
+  --glacious-blue: #7681b3;
+  --glacious: #647aa3;
+  --black: #050401;
+  --Eerie-black: #1a1d1a;
+  --cloumbia-blue: #cad8de;
+  --light-gray: #e4e3e5;
+  --off-white: #f7f7f7;
+  --oxford-blue: #0e1c36;
+  --space-cadet: #171738;
+  --rose-quartz: #aaa1c8;
+  --Thistle: #d5c6e0;
+  --mountbatten-pink: #967aa1;
+  --ultra-violet: #4b4e6d;
+  --powder-blue: #94b0da;
+  --cadet-gray: #88a0a8;
+}
+
+.contact {
+  background-color: var(--glacious-blue);
+  margin-top: 7em;
+}
+
+.contact-container {
+  margin-top: 3em;
+}
+
+.contact-wrapper {
+  padding: 1em;
+}
+
+.contact-wrapper h2 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.contact-line {
+  content: "";
+  border-top: 4px solid var(--Thistle);
+  width: 170px;
+  display: block;
+  margin-top: .5em;
+}
+
+.contact-wrapper p {
+    margin-top: 1em;
+    font-weight: 600;
+}
+
+.social-media {
+    margin-top: 3.5em;
+}
+
+.social-media ul li a {
+    color: inherit;
+}

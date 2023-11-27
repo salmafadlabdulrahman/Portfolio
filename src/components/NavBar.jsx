@@ -1,19 +1,21 @@
-import "../styles/navbar.css"
+//import { Link } from "react-router-dom";
+
+import "../styles/navbar.css";
 
 function NavBar() {
   return (
     <div className="navbar">
       <div className="navbar-wrapper">
         <nav>
-            <span className="logo">Sa</span>
-            <ul>
-                <li>Projects</li>
-                <li>Contact</li>
-            </ul>
+          <span className="logo">Sa</span>
+          <ul>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
         </nav>
       </div>
     </div>
-  )
+  );
 }
 
-export default NavBar
+export default NavBar;
