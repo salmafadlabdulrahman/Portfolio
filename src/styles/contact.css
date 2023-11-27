@@ -20,10 +20,13 @@
 .contact {
   background-color: var(--glacious-blue);
   margin-top: 7em;
+  background-image: url(/src/assets/blobs/purple-blob.png);
+  background-repeat: no-repeat;
 }
 
 .contact-container {
   margin-top: 3em;
+  padding-top: 1em;
 }
 
 .contact-wrapper {
@@ -40,18 +43,59 @@
   border-top: 4px solid var(--Thistle);
   width: 170px;
   display: block;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 .contact-wrapper p {
-    margin-top: 1em;
-    font-weight: 600;
+  margin-top: 1em;
+  font-weight: 600;
 }
 
 .social-media {
-    margin-top: 3.5em;
+  margin-top: 3.5em;
 }
 
 .social-media ul li a {
-    color: inherit;
+  color: inherit;
+}
+
+.contact-wrapper h5 {
+  margin-top: 2em;
+}
+
+.social-media li a:hover {
+    color: var(--cadet-gray);
+    transition: all .2s ease-in;
+}
+
+@media (min-width: 600px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-wrapper h2 {
+    font-size: 2.5em;
+  }
+
+  .contact-line {
+    display: none;
+  }
+}
+
+@media (min-width: 1056px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-wrapper h2 {
+    font-size: 2.5em;
+  }
+
+  .contact-line {
+    display: block;
+    width: 250px;
+    border-top: 4px solid var(--rose-quartz);
+  }
 }

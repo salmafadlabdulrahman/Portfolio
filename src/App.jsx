@@ -5,24 +5,19 @@ import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
-
-//import { useRef } from 'react';
-
-
 function App() {
-  /*const ref = useRef(null);
-
-  const handleClick = () => {
-    ref.current?.scrollIntoView({ behavior: 'smooth' });
-  };*/
-
   return (
     <>
       <NavBar />
       <Hero />
       <Skills />
-      <Projects />
-      <Contact />
+      <div id="projects-section">
+        <Projects />
+      </div>
+
+      <div id="contact-section">
+        <Contact />
+      </div>
     </>
   );
 }

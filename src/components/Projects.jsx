@@ -12,10 +12,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-//import { useRef } from "react";
-
 function Projects() {
-  //const projectsRef = useRef(null);
 
   const style = {
     fontSize: "1.5em",
