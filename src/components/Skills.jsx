@@ -6,7 +6,6 @@ import { faObjectGroup } from '@fortawesome/free-solid-svg-icons';
 function Skills() {
   const style = {
     fontSize: "2.5em",
-
   }
 
   return (

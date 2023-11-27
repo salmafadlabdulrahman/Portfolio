@@ -180,10 +180,3 @@ function Projects() {
 }
 
 export default Projects;
-
-/*<p className="techs-used">
-                Built with: <span>HTML</span> <span>CSS</span> <span>JS</span>{" "}
-                <span>React</span>
-              </p> */
-
-/*style={{alignSelf: "flex-end"}} */
